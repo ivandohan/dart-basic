@@ -21,7 +21,8 @@ void main() {
   // print("Weight = ${cat.weight}");
 
   var cat = Cat('Grayson', 2, 2.2, 'Gray')
-      ..walk()
-      ..eat();
+    ..walk()
+    ..eat();
 
   print(cat.weight);
+}
